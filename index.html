@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Mon portfolio</title>
+        <meta type="description" content="Ceci est mon portfolio étudiant" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <div class="boxed">
+                <div class="flex aligncenter space-between">
+                    <a href="#accueil" class="header-logo">
+                        <img src="img/logo.png">
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#a-propos">A propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="accueil" class="slider">
+            <img src="img/slider.jpg" class="slider-background">
+            <div class="slider-content">
+                <h1>Tristan COULAUD</h1>
+                <P>Apprenti développeur web orienté intégration et logique front-end.</P>
+            </div>
+        </div>
+
+        <div id="a-propos" class="section">
+            <div class="boxed">
+                <div class="flex">
+                    <div class="w40">
+                        <h2>A propos de moi</h2>
+                    </div>
+                    <div class="w60">
+                        <p>Je développe actuellement des projets en HTML, CSS et JavaScript et je construis mes compétences à travers des exercices pratiques, des mini-projets et de l’auto-apprentissage.
+                            Je recherche une alternance en développement web afin de consolider mes bases techniques et contribuer à des projets concrets au sein d’une équipe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="competences" class="section dark">
+            <div class="boxed text-center">
+                <h2>Mes Compétences</h2>
+                <div class="flex gap20">
+                    <div class="w25 skill">
+                        <img src="img/python.png" class="skill-img">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="w25 skill">
+                        <img src="img/HTML.png" class="skill-img">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="w25 skill">
+                        <img src="img/CSS.png" class="skill-img">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="w25 skill">
+                        <img src="img/JS.png" class="skill-img">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <div class="boxed text-center">
+                <h2>Contactez-moi</h2>
+                <div  class="flex space-between">
+                    <div class="w32 contact">
+                        <span class="material-icons icon">alternate_email</span>
+                        <span class="label">E-mail</span>
+                        <span class="value">tristan.coulaud@hotmail.fr</span>
+                    </div>
+                    <div class="w32 contact">
+                        <span class="material-icons icon">trending_flat</span>
+                        <span class="label">Linkedin</span>
+                        <span class="value">(en attente)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+
+    <script src="js/app.js"></script>
+</html>
+
+
